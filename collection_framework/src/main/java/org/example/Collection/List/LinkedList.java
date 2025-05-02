@@ -1,4 +1,4 @@
-package org.example.Collection;
+package org.example.Collection.List;
 
 import java.util.Objects;
 

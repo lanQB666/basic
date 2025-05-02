@@ -1,4 +1,4 @@
-package org.example.Collection;
+package org.example.Collection.List;
 
 import java.util.Objects;
 
@@ -8,10 +8,18 @@ import java.util.Objects;
  **/
 public class ArrayList<E> implements List<E> {
 
-    public static final int INIT_SIZE = 10;
-    private Object[] table = new Object[INIT_SIZE];
+    private static final int INIT_SIZE = 10;
+    private Object[] table;
 
     private int size = 0;
+
+    public ArrayList(){
+        this.table = new Object[INIT_SIZE];
+    }
+
+    public ArrayList(int size){
+        this.table = new Object[size];
+    }
 
     @Override
     public boolean add(E element) {

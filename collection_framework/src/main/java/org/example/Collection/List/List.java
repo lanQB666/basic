@@ -1,4 +1,4 @@
-package org.example.Collection;
+package org.example.Collection.List;
 
 public interface List<E> {
     /**

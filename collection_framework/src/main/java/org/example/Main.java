@@ -1,7 +1,7 @@
 package org.example;
 
-import org.example.Collection.ArrayList;
-import org.example.Collection.List;
+import org.example.Collection.List.ArrayList;
+import org.example.Collection.List.List;
 
 public class Main {
     public static void main(String[] args) {
